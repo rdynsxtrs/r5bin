@@ -1,3 +1,7 @@
+> This repository contains code for systems running ReadyNAS OS 5.x, namely:
+> ReadyNAS Duo v2, ReadyNAS NV+ v2. The code provided **does not work** for the
+> similarly named SPARC systems.
+
 # Apache 2.2.34
 
 ## Purpose
@@ -5,6 +9,10 @@ This package will update the version of the Apache web server on the ReadyNAS to
 version 2.2.34.
 This version supports TLS v1.2 and thus will make the web interface of the ReadyNAS
 work with modern browsers again.
+
+## Warranty
+Everything provided here is provided "as is" with no guarantees expressed or implied.
+Use at your own risk.
 
 ## Installation
 
@@ -65,3 +73,10 @@ through the web interface.
    ``` bash
    apachectl -k restart -f /etc/frontview/apache/httpd.conf
    ```
+#### Disclaimer
+I'm not affiliated with NETGEAR Inc. in any way. I just happen to be a ReadyNAS user who likes
+to build apps/add-ons for stuff I'm either using myself or deem interesting.
+
+#### Donations
+
+If you like my work, donations to https://paypal.me/readynasxtras are always welcome.
